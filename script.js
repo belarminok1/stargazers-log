@@ -51,7 +51,9 @@ async function loadRepositories() {
       ? ""
       : "No starred repositories yet.";
   } catch (error) {
-    statusMessage.textContent = "Could not load starred repositories. Please try again later.";
+    statusMessage.textContent = window.location.protocol === "file:"
+      ? "Open this page through a local web server to load repositories. From the project folder, run `python -m http.server 8000`, then visit http://localhost:8000."
+      : "Could not load starred repositories. Check that events.json is available, then try again.";
     statusMessage.setAttribute("role", "alert");
     console.error("Failed to load events.json:", error);
   }
