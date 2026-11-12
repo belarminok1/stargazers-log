@@ -1,0 +1,23 @@
+[
+  {
+    "name": "freeCodeCamp",
+    "url": "https://github.com/freeCodeCamp/freeCodeCamp",
+    "description": "Open-source curriculum and projects for learning to code.",
+    "language": "TypeScript",
+    "starredAt": "2026-10-28"
+  },
+  {
+    "name": "public-apis",
+    "url": "https://github.com/public-apis/public-apis",
+    "description": "A collected list of free APIs for development.",
+    "language": "Python",
+    "starredAt": "2026-10-12"
+  },
+  {
+    "name": "gitignore",
+    "url": "https://github.com/github/gitignore",
+    "description": "Useful .gitignore templates for many languages and tools.",
+    "language": "Shell",
+    "starredAt": "2026-09-30"
+  }
+]
